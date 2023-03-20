@@ -1,0 +1,45 @@
+@font-face {
+font-family: 'Regular' ;
+src: url(static/Regular.otf);
+}
+body {
+    background: #000000;
+    color: #fafae0;
+    font-family: "Regular", sans-serif;
+    font-weight: 400;
+}
+a.button{
+    display:inline-block;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 8px;
+}
+a:link {
+    text-decoration: underline;
+    color: #fafae0;
+}
+a:visited{
+    color: #fafae0;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: #fafae0;
+    cursor: pointer;
+}
+#container {
+    font-size: 1.6em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-35%, -50%);
+}
+@media (min-width: 600px) {
+    #container {
+    font-size: 3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
